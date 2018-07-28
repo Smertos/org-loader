@@ -1,0 +1,32 @@
+* Global Functions
+** Sum
+#+BEGIN_SRC javascript
+function sum(a, b) { return a + b; }
+#+END_SRC
+
+** Subtraction
+#+BEGIN_SRC javascript
+function sub(a, b) { return a - b; }
+#+END_SRC
+
+** Multiply
+#+BEGIN_SRC javascript
+function mult(a, b) { return a * b; }
+#+END_SRC
+
+** Divide
+#+BEGIN_SRC javascript
+function div(a, b) { return a / b; }
+#+END_SRC
+
+* Let's some math
+#+BEGIN_SRC javascript
+console.log(`Sum of 2 and 5 is ${sum(2, 5)}`)
+console.log(`Sub of 6 and 2 is ${sub(6, 2)}`)
+console.log(`Mult of 3 and 7 is ${mult(3, 7)}`)
+console.log(`Div of 1337 and 2 is ${div(1337, 2)}`)
+#+END_SRC
+
+* Some notes:
+- #+BEGIN_SRC is de wey
+- Block parameters are ignored
